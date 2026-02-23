@@ -38,7 +38,7 @@ if "gemini_client" not in st.session_state:
 with st.sidebar:
     st.header("⚙ Settings")
 
-    st.markdown("**Model:** Gemini")
+    st.markdown("**Model:** Groq ")
 
     if st.button("🗑 Clear Chat History"):
         st.session_state.conversation = ConversationManager()

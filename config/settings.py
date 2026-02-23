@@ -41,5 +41,5 @@ LOG_DIR = "logs"
 # -----------------------------
 if not GROQ_API_KEY:
     raise ValueError(
-        "GEMINI_API_KEY not found. Please set it in your .env file."
+        "GROQ_API_KEY not found. Please set it in your .env file."
     )
